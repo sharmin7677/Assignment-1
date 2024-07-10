@@ -1,9 +1,7 @@
-
-
-.azeret-mono-normal {
-  font-family: "Azeret Mono", monospace;
-  font-optical-sizing: auto;
-  font-style: normal;
+body {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 /* banner styles */
 
@@ -11,11 +9,12 @@
     background-color: rgb(13, 19, 33);
     font-weight: bold;
     font-size: 20px;
-    color: white !important;
+    color: white;
     border: none;
     padding: 18px 35px;
     border-radius: 8px;
     text-decoration: none;
+    
     
 }
 /* button{
@@ -33,6 +32,7 @@
 .banner-description{
     font-size: 20px;
     color: #757575;
+    text-align: center;
 }
 
 
@@ -76,7 +76,7 @@ nav li a {
 
 .about-section {
 
-    background-color: rgb(201, 201, 201);
+    background: rgba(13, 19, 33, 0.02);
     margin: 80px 100px;
 }
 .about-section-title {
@@ -110,4 +110,11 @@ padding: 30px;
 }
 .input-field {
     display: flex;
+}
+.footer-section {
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
