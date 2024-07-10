@@ -75,9 +75,8 @@ nav li a {
 /* main styles */
 
 .about-section {
-
     background: rgba(13, 19, 33, 0.02);
-    margin: 80px 100px;
+    margin: 80px 150px;
 }
 .about-section-title {
     text-align: center;
@@ -87,16 +86,44 @@ padding: 30px;
     display: flex;
     justify-content: space-around;
 }
-
+.inspiation-section-title {
+    width: 70%;
+    text-align: center;
+}
 .cards {
     display: flex;
     justify-content: space-evenly;
     }
 .card-1 {
-    border: 5px solid;
+    border-radius: 16px;
+        background: rgba(255, 76, 30, 0.05);
+        width: 364px;
+        height: 299px;
+        padding-top: 40px;
+        padding-left: 30px;
+    
+    }
+    
+    .card-2 {
+        border-radius: 16px;
+        background: rgba(0, 76, 232, 0.05);
+        width: 364px;
+        height: 299px;
+        padding-top: 40px;
+        padding-left: 30px;
+    }
+    
+    .card-3 {
+        border-radius: 16px;
+        background: rgba(255, 223, 0, 0.05);
+        width: 364px;
+        height: 299px;
+        padding-top: 40px;
+        padding-left: 30px;
 }
 .support-section-img {
     border-radius: 16px;
+    margin-top: 50px;
 }
 
 .support-section-text {
