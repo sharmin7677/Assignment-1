@@ -17,6 +17,17 @@ body {
     
     
 }
+
+.btn-submit {
+    background-color: rgb(230, 230, 230);
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(2, 0, 0);
+    border: none;
+    padding: 18px 35px;
+    border-radius: 8px;
+    text-decoration: none;
+}
 /* button{
     display: flex;
     flex-direction: row;
@@ -136,8 +147,15 @@ padding: 30px;
     color: rgb(13, 19, 33);
 }
 .input-field {
-    display: flex;
+    box-sizing: border-box;
+        border: 1px solid rgba(13, 19, 33, 0.15);
+        border-radius: 8px;
+        background: rgb(255, 255, 255);
+        width: 548px;
+        height: 57px;
+        padding-left: 20px;
 }
+
 .footer-section {
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.03);
